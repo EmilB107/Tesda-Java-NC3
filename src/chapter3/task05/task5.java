@@ -4,7 +4,6 @@
     Write a program that takes in three numbers from the user and outputs the largest number.
     If all numbers are equal, it will print "All numbers are equal."
 */
-
 package chapter3.task05;
 import java.util.Scanner;
 

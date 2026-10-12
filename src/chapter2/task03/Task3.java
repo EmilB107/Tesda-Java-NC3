@@ -1,3 +1,11 @@
+/*
+    Change the variables in the first section, so that each if statement resolves as true.
+
+    String a = new String("Wow");
+    String b = "Wow";
+    String c = a;
+    String d = c;
+*/
 package chapter2.task03;
 
 public class Task3 {
