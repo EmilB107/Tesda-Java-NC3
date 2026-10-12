@@ -17,15 +17,19 @@ If the strings are not the same, print "The input string is not a palindrome."
 package chapter3.task04;
 import java.util.Scanner;
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter a string to check for palindrome: ");
-        String check = new String(new Scanner(System.in).nextLine());
+        String check = scanner.nextLine();
 
         System.out.println(
             check.equals(new StringBuilder(check).reverse().toString())
             ? "The input string is a palindrome."
             : "The input string is not a palindrome."
         );
+
+        scanner.close();
     }
 }
