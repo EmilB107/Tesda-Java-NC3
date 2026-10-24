@@ -17,7 +17,7 @@ public  class Challenge3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a day number (1-7):");
+        System.out.print("Enter a day number (1-7): ");
         int day = scanner.nextInt();
     
         switch (day) {

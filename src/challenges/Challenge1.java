@@ -14,7 +14,7 @@ public class Challenge1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the student's score (0-100):");
+        System.out.print("Enter the student's score (0-100): ");
         int score = scanner.nextInt();
         String grade;
 

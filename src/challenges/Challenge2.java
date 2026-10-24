@@ -15,7 +15,7 @@ public class Challenge2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a month number (1-12):");
+        System.out.print("Enter a month number (1-12): ");
         int month = scanner.nextInt();
         switch (month) {
             case 1 -> System.out.println("January - 31 days");
